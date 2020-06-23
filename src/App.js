@@ -13,7 +13,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://res.cloudinary.com/jummay/image/upload/v1592880649/Screen_Shot_2020-06-22_at_7.51.09_PM_spnyvv.png"
+          href="https://res.cloudinary.com/jummay/image/upload/v1592891869/Screen_Shot_2020-06-22_at_10.57.55_PM_sdn4ep.png"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -39,10 +39,10 @@ function App() {
       </header>
       <div>
         <h1>ALEX S. HAN</h1>
-        <nav>
+        <nav class="nav-center">
           <div class="nav-wrapper blue-grey">
             <a href="#" class="brand-logo"> </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <ul id="nav-mobile" className="center-align">
               <li><a href="#about">About</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#resume">Resume</a></li>
@@ -62,20 +62,15 @@ function App() {
         <hr />
         <div>
           <h3 id="resume">RESUME</h3>
-          <a
-          className="App-link"
-          href="https://res.cloudinary.com/jummay/image/upload/v1592880649/Screen_Shot_2020-06-22_at_7.51.09_PM_spnyvv.png"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+          <img src="https://res.cloudinary.com/jummay/image/upload/v1592891869/Screen_Shot_2020-06-22_at_10.57.55_PM_sdn4ep.png"/>
+          <div>
           My Resume
-        </a>
-
+          </div>
         </div>
         <hr />
         <div class="right-align">
           <h3 id="lAndS">LANGUAGE & SKILLS</h3>
-          <p>MY ELEGANT LANGUAGES AND HOT SKILLS</p>
+          <p>MY ELEGANT LANGUAGES AND SKILLS</p>
         </div>
         <LangIcons />
       </div>
