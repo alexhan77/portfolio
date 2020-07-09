@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body {
+  background-color: black;
+}
 .App-logo {
   height:80vmin;
   pointer-events: none;
@@ -69,7 +71,9 @@ h3 {
 }
 #iconPack{
   /* margin-top: 120vh !important; */
-  margin-left: 3.2vw !important;
+  /* margin-left: 3.2vw !important;
+   */
+  width: 100%;
   display: inline-block;
   position: center;
 }
@@ -77,6 +81,7 @@ h3 {
   display: inline-block;
   margin-left: 1vw !important;
   width: 5vw;
+  padding: 15px;
 }
 
 nav.nav-center ul {

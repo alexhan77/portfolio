@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import LangIcons from './components/LangIcons'
+import Pdf from '../src/AlexHanResume.pdf'
+import { Button } from 'react-bootstrap';
 
 function App() {
   return (
@@ -72,7 +74,7 @@ function App() {
         <div class="right-align">
           <h3 id="projects"><strong>PROJECTS</strong></h3>
           <p><strong>ALL MY FAVORITE PROJECTS</strong></p>
-          <h2>Animania</h2>
+          <h3 id="projects"><strong>ANIMANIA</strong></h3>
           <img class="animania" src="https://res.cloudinary.com/jummay/image/upload/v1592893885/Screen_Shot_2020-06-22_at_11.30.39_PM_iccl9r.png" />
           <p>Languages Used:</p>
           <p>
@@ -83,10 +85,45 @@ function App() {
             <li>Developed and created a small portion of the backend routes</li>
             <li>Rendered music and gifs to the site: Autoplay was implemented and different moving background gifs.</li>
             <li>GitMaster: Merging and resolving conflicts</li>
+            <p>
+          Github Link:<div> <a
+          className="App-link"
+          href="https://github.com/alexhan77/clientP4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Project 4 Client
+        </a></div>
+        <div> <a
+          className="App-link"
+          href="https://github.com/alexhan77/servP4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Project 4 Server
+        </a></div>
+          Heroku Link:<div> <a
+          className="App-link"
+          href="https://git.heroku.com/animania-server.git"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Deployed Server Side
+        </a></div>
+        <div> <a
+          className="App-link"
+          href="https://git.heroku.com/animania-client.git"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Deployed Client Side
+        </a></div>
+          </p>
           </p>
           
-          <br />
-          <h2>Rick v.s Morty</h2>
+          <hr />
+  
+          <h3 id="projects"><strong>RICK&MORTY PACMAN</strong></h3>
           <img class="project1" src="https://res.cloudinary.com/jummay/image/upload/v1592894648/Screen_Shot_2020-06-22_at_11.43.56_PM_okk4n2.png" />
           <p>Languages Used:</p>
           <p>
@@ -109,8 +146,8 @@ function App() {
   
           </p>
 
-          <br />
-          <h2>FriendHub 😉</h2>
+          <hr />
+          <h3 id="projects"><strong>FRIENDHUB</strong></h3>
           <img class="project1" src="https://res.cloudinary.com/jummay/image/upload/v1594120938/Screen_Shot_2020-07-07_at_4.18.32_AM_qlzzjg.png" />
           <p>Languages Used:</p>
           <p>
@@ -128,7 +165,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        Project3 Client
+        Project 3 Client
         </a></div>
         <div> <a
           className="App-link"
@@ -136,7 +173,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        Project3 Server
+        Project 3 Server
         </a></div>
           Heroku Link:<div> <a
           className="App-link"
@@ -159,11 +196,8 @@ function App() {
         <hr />
         <div>
           <h3 id="resume">RESUME</h3>
-          <hr />
-          <img src="https://res.cloudinary.com/jummay/image/upload/v1592891869/Screen_Shot_2020-06-22_at_10.57.55_PM_sdn4ep.png" />
-          <div>
-            My Resume
-          </div>
+          <button variant="warning"><a href = {Pdf}>Click here to view</a></button>
+          
         </div>
         <hr />
         <div class="right-align">
