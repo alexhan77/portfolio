@@ -6,10 +6,7 @@ import LangIcons from './components/LangIcons'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <h1><strong>ALEX S. HAN</strong></h1>
-      Welcome to my site.
-        <div>
+      <div>
           <nav class="nav-center">
             <div class="nav-wrapper black">
               <a href="#" class="brand-logo"> </a>
@@ -22,41 +19,56 @@ function App() {
             </div>
           </nav>
         </div>
+      <header className="App-header">
+        <div class="name">
+        <h1><strong>ALEX S. HAN</strong></h1>
+        </div>
+      Welcome to my site.
+        
         <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/41539666_2315322235161813_6283484562173460480_n.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_oc=AQk1K2wcH0TBvDxxO6k9MPT_j97SeX7kv4oEgu5EvRIdJiN0vJ61821W28NAqKOMGrgejmPKNzWbvsp3JufDFYEc&_nc_ht=scontent-sea1-1.xx&oh=19a5cca7a61847937f25a4f55900515a&oe=5F13DC9B" className="App-logo" alt="logo" />
         <p>
         </p>
-        <a
-          className="App-link"
-          href="https://res.cloudinary.com/jummay/image/upload/v1592891869/Screen_Shot_2020-06-22_at_10.57.55_PM_sdn4ep.png"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          My Resume
+      </header>
+      <div class="right-align">
+        <h3 id="about" >ABOUT ME</h3>
+        <div class="text">
+          <div class="indent">String name = "Alex S. Han";</div>
+          <div class="indent">String university = "Highline Community College";</div>
+          <div class="indent">String degree = "AA CS";</div>
+          <div class="indent">Integer yearOf = 2021;</div>
+          <div class="indent">String currentCity = "Des Moines, WA";</div>
+        </div>
+        <p>Hello! My name is Alex, I am a Full Stack Developer that would like to take my life more towards Seattle. I breifly dabbled in code throughout college but I felt like I wanted more. I recently finished a software engineering immersive course, the main lesson that I learned is that theres a lot of freedom with code, creating something from nothing, that is your OWN specific idea strives me in every aspect.
+        When most of my time is spent coding, in my free time I love to play video games and play basketball. The way video games and basketball challenge you is what draws me to my hobbies.
+        If you ever need to contact me, reach out to my linkedIn or email me. Feel free to check out the rest of the site. </p>
+        <div>
+          <a
+            className="App-link"
+            href="https://res.cloudinary.com/jummay/image/upload/v1592891869/Screen_Shot_2020-06-22_at_10.57.55_PM_sdn4ep.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My Resume
         </a>
-        <a
+        </div>
+        <div> <a
           className="App-link"
           href="https://linkedin.com/in/alexhan77 "
           target="_blank"
           rel="noopener noreferrer"
         >
           My LinkedIn
-        </a>
-        <a
+        </a></div>
+        <div> <a
           className="App-link"
           href="https://github.com/alexhan77 "
           target="_blank"
           rel="noopener noreferrer"
         >
           My GitHub
-        </a>
+        </a></div>
+<hr/>
 
-      </header>
-      <div>
-        
-        <div>
-          <h3 id="about">ABOUT</h3>
-s        </div>
-        <hr />
         <div class="right-align">
           <h3 id="projects"><strong>PROJECTS</strong></h3>
           <p><strong>ALL MY FAVORITE PROJECTS</strong></p>
@@ -72,6 +84,7 @@ s        </div>
             <li>Rendered music and gifs to the site: Autoplay was implemented and different moving background gifs.</li>
             <li>GitMaster: Merging and resolving conflicts</li>
           </p>
+          
           <br />
           <h2>Rick v.s Morty</h2>
           <img class="project1" src="https://res.cloudinary.com/jummay/image/upload/v1592894648/Screen_Shot_2020-06-22_at_11.43.56_PM_okk4n2.png" />
@@ -83,6 +96,19 @@ s        </div>
             <li>Developed and created a map</li>
             <li>Rendered characters to move and created an automated bot to move at random</li>
           </p>
+          <p>
+            Github Link:<div> <a
+          className="App-link"
+          href="https://github.com/alexhan77/gamepacMan"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        RickV.SMorty
+        </a></div>
+        Heroku Link: Unavailable
+  
+          </p>
+
           <br />
           <h2>FriendHub 😉</h2>
           <img class="project1" src="https://res.cloudinary.com/jummay/image/upload/v1594120938/Screen_Shot_2020-07-07_at_4.18.32_AM_qlzzjg.png" />
@@ -94,6 +120,40 @@ s        </div>
             Social Media Application that was thought between myself and two other colleagues. This project was one of the hardest projects I have done so far. It was my first time working with a group of a people, but very content of the functionality of the website.
             <li>Implemented favorite and edit routes for users to favorite profiles and edit their posts/profiles as well.</li>
             <li>Added button/shadow design to specific pages. </li>
+          </p>
+          <p>
+          Github Link:<div> <a
+          className="App-link"
+          href="https://github.com/alexhan77/proj3-client "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Project3 Client
+        </a></div>
+        <div> <a
+          className="App-link"
+          href="https://github.com/alexhan77/proj3-server"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Project3 Server
+        </a></div>
+          Heroku Link:<div> <a
+          className="App-link"
+          href="https://proj3-server.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Deployed Server Side
+        </a></div>
+        <div> <a
+          className="App-link"
+          href="https://proj3-client.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+        Deployed Client Side
+        </a></div>
           </p>
         </div>
         <hr />
@@ -108,7 +168,7 @@ s        </div>
         <hr />
         <div class="right-align">
           <h3 id="lAndS">LANGUAGE & SKILLS</h3>
-          <p>MY ELEGANT LANGUAGES AND SKILLS</p>
+          <p>MY LANGUAGES AND SKILLS</p>
         </div>
         <LangIcons />
       </div>
